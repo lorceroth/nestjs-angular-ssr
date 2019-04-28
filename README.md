@@ -1,6 +1,11 @@
-# NestJS and Angular Playground
+# NestJS and Angular Sanbox
 
-What the title says 😃
+What the title says! 😃
+This repository is a sandbox to play around with Server-Side Rendering using NestJS and Angular.
+
+## Requirements
+- Node >= 8.9
+- NPM >= 5.5.1
 
 ## Installation
 
@@ -13,26 +18,20 @@ $ yarn # or npm install
 
 ```bash
 # development
-$ npm run start
+$ yarn serve
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+# production
+$ yarn build
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
+$ yarn test
 
 # e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+$ yarn e2e
 ```
 
 ## License
