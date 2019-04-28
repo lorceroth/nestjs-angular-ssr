@@ -1,0 +1,7 @@
+<h1>Todos</h1>
+
+<ul *ngIf="todos">
+  <li *ngFor="let todo of todos">
+    <input type="checkbox" [checked]="todo.checked" /> {{ todo.description }}
+  </li>
+</ul>
