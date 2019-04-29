@@ -12,7 +12,7 @@ export class TodoIndex implements OnInit {
   constructor(private readonly _client: HttpClient) {}
 
   ngOnInit(): void {
-    this._client.get('api/todos')
+    this._client.get('http://localhost:4000/api/todos')
       .subscribe((todos: any[]) => {
         this.todos = todos;
       });
